@@ -36,7 +36,7 @@ let listaJoburi = [
         cardType: 1,
         jobTitle: "React Developer",
         jobDescription: "Intermediate, Senior",
-        jobImage: "/React-Thumbnail.jpg",
+        jobImage: "./React-Thumbnail.jpg",
     },
     {
         jobIndex: 1,
