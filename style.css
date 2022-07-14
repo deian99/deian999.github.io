@@ -1,70 +1,254 @@
+body {
+  margin: 0;
+
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(8, 123, 120, 1) 0%, rgba(8, 43, 75, 1) 100%);
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  flex-wrap: wrap;
+}
+
+.footer {
+
+  background: linear-gradient(90deg, rgba(8, 123, 120, 1) 0%, rgba(8, 43, 75, 1) 100%);
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.footer-button {
+  cursor: pointer;
+  display: block;
+  margin: 2% 45% 0;
+  color: white;
+  padding: 8px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  background-color: #009184 !important;
+  border-radius: 8px;
+  border: none;
+  min-width: 180px;
+}
+
+.footer-title {
+  margin: 2% 30% 0;
+  color: #fff;
+  font-family: Open Sans, 'Helvetica', 'Arial', sans-serif;
+  font-size: 2.4rem;
+}
+
+.mainTitle {
+  margin-left: 22%;
+  margin-right: 22%;
+  color: #fff;
+  font-size: 3.9rem;
+  font-weight: lighter;
+  font-family: Open Sans, 'Helvetica', 'Arial', sans-serif;
+}
+
+.subTitle {
+  margin-top: 2%;
+  font-family: Open Sans, 'Helvetica', 'Arial', sans-serif;
+  color: lightgray;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
 #wrapper {
-
-    margin-top: 3%;
-
-
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
 }
 
-#card1 {
-    width: 85%;
-    padding: 5px;
-    border: 2px solid lightgrey;
-    border-radius: 10px;
+#section2 {
+  background-size: contain;
 }
 
-#card2 {
-    width: 85%;
-    padding: 5px;
-    border: 2px solid rgb(35, 131, 136);
-    border-radius: 10px;
-    background-color: rgba(0, 82, 84, 0.4)
+.card1 {
+  width: 85%;
+  padding: 5px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
 
+.card2 {
+  width: 85%;
+  padding: 5px 5px 40%;
+  border-radius: 10px;
+  background-color: rgba(0, 32, 67, 0.3);
+  margin-bottom: 25px;
 }
 
 #contactInfo {
-    display: block;
-    
+  display: block;
 }
 
 #jobCard {
-    background-color: black;
+  background-color: black;
 }
 
-#jobTitle {
-    font-size: 22px;
-    font-weight: bold;
-    padding: 5px;
+.jobTitle1 {
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  width: 60%;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.14rem;
+}
+.jobTitle2 {
+  color: white;
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  width: 60%;
+  padding-left: 20px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.14rem;
 }
 
-#jobLink {
-    color: darkgreen;
-    font-weight: 550;
-    text-decoration: none;
-    padding: 5px;
+.jobLink1 {
+  color: darkgreen;
+  font-weight: 550;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
 }
 
-#jobLink:hover {
-    color: limegreen;
+.jobLink1:hover {
+  color: limegreen;
+}
+.jobLink2 {
+  display: none;
+}
+
+.jobDesc1 {
+  color: black;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  margin-left: 5px;
+  width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  padding: 5px;
+}
+
+.jobDesc2 {
+  color: lightgray;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  margin-left: 15px;
+  width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  padding: 5px;
+}
+#wrapperTitle1 {
+  color: #002043;
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  width: 40%;
+  font-size: 36px;
+  font-weight: 550;
+  padding: 10px;
+}
+#wrapperTitle2 {
+  width: 40%;
+  color: white;
+  font-size: 36px;
+  font-weight: 550;
+  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#wrapperDescription1 {
+  color: #002043;
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+#wrapperDescription2 {
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  color: white;
+  width: 60%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.jobImage {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.slide-text  {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 1.78571429em;
+  line-height: 1.5em;
+  text-align: center;
+  /*animation-name: fade;*/
+  /*animation-duration: 3s;*/
+  color: black;
+}
+
+.slide-name {
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.4rem;
+  color: #002043;
+  text-align: center;
+}
+
+.slide-company {
+  font-family: Open Sans, "Helvetica", "Arial", sans-serif;
+  margin-top: 1px;
+  font-size: 1.2rem;
+  color: gray;
+  text-align: center;
+}
+
+#inner-slider {
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200%;
+  gap: 500px;
+  pointer-events: none;
+
+}
+
+.slider {
+  margin-bottom: 7%;
+  left: 10%;
+  top: 30%;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+
+.slide {
+  background-color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+#stories {
+  margin-left: 10%;
 }
 
 
-#jobDesc {
-    font-size: 18px;
-    font-weight: 550;
-    padding: 5px;
-}
-#wrapperTitle {
-    font-size: 36px;
-    font-weight: 550;
-    padding: 10px;
-}
-
-#wrapperDescription {
-    font-size: 24px;
-    padding: 10px;
-}
-
-#jobImage {
-    width: 70%;
-    padding: 5px;
-}
